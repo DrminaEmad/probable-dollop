@@ -1,4 +1,7 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
-<h2>Hello world </h2>
+<nav>
+	<a href="/">home</a>
+	<a href="/about">about</a>
+</nav>
+
+<h1>home</h1>
+<p>this is the home page.</p>
