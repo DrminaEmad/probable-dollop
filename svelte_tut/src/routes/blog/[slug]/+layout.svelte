@@ -7,8 +7,18 @@
 	<main>
 		{@render children()}
 	</main>
-</div>
 
+	<aside>
+		<h2>More Posts</h2>
+		<ul>
+			{#each data.summaries as {slug, title}}
+				<li>
+					<a href="/blog/{slug}">{title}</a>
+				</li>
+			{/each}
+		</ul>
+	</aside>
+</div>
 <style>
 	@media (min-width: 640px) {
 		.layout {
