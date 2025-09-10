@@ -19,6 +19,7 @@
 		</ul>
 	</aside>
 </div>
+
 <style>
 	@media (min-width: 640px) {
 		.layout {
