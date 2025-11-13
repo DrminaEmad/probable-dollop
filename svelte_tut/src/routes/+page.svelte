@@ -4,6 +4,8 @@
 	<a href="/blog">blog</a>
 </nav> -->
 <script>
+// @ts-nocheck
+
 	let {data} = $props()
 </script>
 
